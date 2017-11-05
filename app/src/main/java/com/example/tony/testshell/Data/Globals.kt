@@ -5,8 +5,10 @@ package com.example.tony.testshell.Data
  */
 class Globals {
     companion object GlobalVariable{
-        var stationButton:Int? = null
-        var stationName: String? = null
+
+        var authKey: String? = null
+        var patientID:Int?=null
+        var inventoryID:Int?=null
 
     }
 }
